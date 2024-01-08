@@ -18,10 +18,10 @@ const Navbar = () =>
             <Link to='/career'>Career</Link>
             <Link to='/about'>About</Link> */}
            <NavLink to='/' className={({isActive})=>`${isActive? "text-white" : "text-black"}`}>Home</NavLink>
-            <NavLink to='/gallery' className={({isActive})=>`${isActive? "text-white" : "text-black"}`}>Gallery</NavLink>
-            <NavLink to='/contact' className={({isActive})=>`${isActive? "text-white" : "text-black"}`}>Contact</NavLink>
-            <NavLink to='/career' className={({isActive})=>`${isActive? "text-white" : "text-black"}`}>Career</NavLink>
-            <NavLink to='/about' className={({isActive})=>`${isActive? "text-white" : "text-black"}`}>About</NavLink>
+            <NavLink to='gallery' className={({isActive})=>`${isActive? "text-white" : "text-black"}`}>Gallery</NavLink>
+            <NavLink to='contact' className={({isActive})=>`${isActive? "text-white" : "text-black"}`}>Contact</NavLink>
+            <NavLink to='user' className={({isActive})=>`${isActive? "text-white" : "text-black"}`}>Career</NavLink>
+            <NavLink to='about' className={({isActive})=>`${isActive? "text-white" : "text-black"}`}>About</NavLink>
 
         </ul>
         {/* <button type="submit" value="Login" className="bg-blue-500 text-white hover:bg-gray-700 hover:text-black-300 p-2 rounded-md ">Login</button> */}
