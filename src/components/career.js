@@ -5,7 +5,7 @@ const Career = () => {
     const {id} = useParams()
   return (
     <div>
-      Career : {id}
+      {/* Career : {id} */}
     </div>
   )
 }
