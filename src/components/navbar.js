@@ -20,7 +20,7 @@ const Navbar = () =>
            <NavLink to='/' className={({isActive})=>`${isActive? "text-white" : "text-black"}`}>Home</NavLink>
             <NavLink to='gallery' className={({isActive})=>`${isActive? "text-white" : "text-black"}`}>Gallery</NavLink>
             <NavLink to='contact' className={({isActive})=>`${isActive? "text-white" : "text-black"}`}>Contact</NavLink>
-            <NavLink to='user' className={({isActive})=>`${isActive? "text-white" : "text-black"}`}>Career</NavLink>
+            <NavLink to='career' className={({isActive})=>`${isActive? "text-white" : "text-black"}`}>Career</NavLink>
             <NavLink to='about' className={({isActive})=>`${isActive? "text-white" : "text-black"}`}>About</NavLink>
 
         </ul>

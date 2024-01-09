@@ -7,7 +7,7 @@ import Layout from './Layout';
 import Homepage from './components/home';
 import Contact from './components/contact';
 import Gallery from './components/gallery';
-import User from './components/user';
+import Career from './components/career';
 
 // const router = createBrowserRouter([
 //   {
@@ -37,7 +37,7 @@ const router = createBrowserRouter(
     <Route path="" element={<Homepage/>}/>
     <Route path="contact" element={<Contact/>}/>
     <Route path="gallery" element={<Gallery/>}/>
-    <Route path="user/:id" element={<User/>}/>
+    <Route path="career/:id" element={<Career/>}/>
     </Route>
 
   )
